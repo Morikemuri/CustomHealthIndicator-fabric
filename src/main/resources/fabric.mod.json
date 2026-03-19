@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "customhealthindicator",
+  "version": "${version}",
+  "name": "CustomHealthIndicator",
+  "description": "Health indicator HUD + colored nametags. Fabric 1.16.5.",
+  "authors": ["Matvey Slotvinskiy", "Gabrielsim"],
+  "license": "All rights reserved",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["hw.zako.zakohealthindicator.CustomHealthIndicatorMod"]
+  },
+  "mixins": ["customhealthindicator.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.12.0",
+    "minecraft": "~1.16.5",
+    "java": ">=8"
+  }
+}
